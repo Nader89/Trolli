@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.FB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input" />
+  <Section Name="Output" />
+  <Section Name="InOut" />
+  <Section Name="Static" />
+  <Section Name="Temp" />
+  <Section Name="Constant" />
+</Sections></Interface>
+      <MemoryLayout>Optimized</MemoryLayout>
+      <Name>Startup_FB</Name>
+      <Namespace />
+      <Number>9</Number>
+      <ProgrammingLanguage>LAD</ProgrammingLanguage>
+      <SetENOAutomatically>false</SetENOAutomatically>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <SW.Blocks.CompileUnit ID="3" CompositionName="CompileUnits">
+        <AttributeList>
+          <NetworkSource><StructuredText xmlns="http://www.siemens.com/automation/Openness/SW/NetworkSource/StructuredText/v4">
+  <NewLine UId="21" />
+  <Access Scope="GlobalVariable" UId="22">
+    <Symbol UId="23">
+      <Component Name="R_TRIG_DB" UId="24">
+        <BooleanAttribute Name="HasQuotes" UId="25">true</BooleanAttribute>
+      </Component>
+    </Symbol>
+  </Access>
+  <Access Scope="Call" UId="26">
+    <Instruction UId="27">
+      <Token Text="(" UId="28" />
+      <Parameter Name="CLK" UId="29">
+        <Token Text=":=" UId="30" />
+        <Access Scope="GlobalVariable" UId="31">
+          <Symbol UId="32">
+            <Component Name="FirstScan" UId="33">
+              <BooleanAttribute Name="HasQuotes" UId="34">true</BooleanAttribute>
+            </Component>
+          </Symbol>
+        </Access>
+      </Parameter>
+      <Token Text=")" UId="35" />
+    </Instruction>
+  </Access>
+  <Token Text=";" UId="36" />
+  <NewLine UId="37" />
+  <Token Text="IF" UId="38" />
+  <Blank UId="39" />
+  <Access Scope="GlobalVariable" UId="40">
+    <Symbol UId="41">
+      <Component Name="R_TRIG_DB" UId="42">
+        <BooleanAttribute Name="HasQuotes" UId="43">true</BooleanAttribute>
+      </Component>
+      <Token Text="." UId="44" />
+      <Component Name="Q" UId="45" />
+    </Symbol>
+  </Access>
+  <Blank UId="46" />
+  <Token Text="=" UId="47" />
+  <Blank UId="48" />
+  <Access Scope="LiteralConstant" UId="49">
+    <Constant UId="50">
+      <ConstantValue UId="52">1</ConstantValue>
+    </Constant>
+  </Access>
+  <Blank UId="53" />
+  <Token Text="THEN" UId="54" />
+  <NewLine UId="55" />
+  <Blank Num="4" UId="56" />
+  <Access Scope="GlobalVariable" UId="57">
+    <Symbol UId="58">
+      <Component Name="GD_Data" UId="59">
+        <BooleanAttribute Name="HasQuotes" UId="60">true</BooleanAttribute>
+      </Component>
+      <Token Text="." UId="61" />
+      <Component Name="Counter_00" UId="62" />
+    </Symbol>
+  </Access>
+  <Blank UId="63" />
+  <Token Text=":=" UId="64" />
+  <Blank UId="65" />
+  <Access Scope="GlobalVariable" UId="66">
+    <Symbol UId="67">
+      <Component Name="GD_Data" UId="68">
+        <BooleanAttribute Name="HasQuotes" UId="69">true</BooleanAttribute>
+      </Component>
+      <Token Text="." UId="70" />
+      <Component Name="Counter_00" UId="71" />
+    </Symbol>
+  </Access>
+  <Blank UId="72" />
+  <Token Text="+" UId="73" />
+  <Access Scope="LiteralConstant" UId="74">
+    <Constant UId="75">
+      <ConstantValue UId="77">1</ConstantValue>
+    </Constant>
+  </Access>
+  <NewLine UId="78" />
+  <Blank Num="4" UId="79" />
+  <Token Text=";" UId="80" />
+  <NewLine UId="81" />
+  <Token Text="END_IF" UId="82" />
+  <Token Text=";" UId="83" />
+  <NewLine UId="84" />
+</StructuredText></NetworkSource>
+          <ProgrammingLanguage>SCL</ProgrammingLanguage>
+        </AttributeList>
+        <ObjectList>
+          <MultilingualText ID="4" CompositionName="Comment">
+            <ObjectList>
+              <MultilingualTextItem ID="5" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+          <MultilingualText ID="6" CompositionName="Title">
+            <ObjectList>
+              <MultilingualTextItem ID="7" CompositionName="Items">
+                <AttributeList>
+                  <Culture>en-US</Culture>
+                  <Text />
+                </AttributeList>
+              </MultilingualTextItem>
+            </ObjectList>
+          </MultilingualText>
+        </ObjectList>
+      </SW.Blocks.CompileUnit>
+      <MultilingualText ID="8" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="9" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.FB>
+</Document>

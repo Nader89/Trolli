@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.InstanceDB ID="0">
+    <AttributeList>
+      <InstanceOfName>Runtime</InstanceOfName>
+      <InstanceOfType>FB</InstanceOfType>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input">
+    <Member Name="iMotor Run Freedback" Datatype="Bool" />
+    <Member Name="iTakt_1Sec" Datatype="Bool" />
+    <Member Name="iReset" Datatype="Bool" />
+    <Member Name="iSetTime" Datatype="Bool" />
+  </Section>
+  <Section Name="Output" />
+  <Section Name="InOut">
+    <Member Name="ioRun_Time_C" Datatype="&quot;UDT_RunTime_Steuern&quot;" />
+    <Member Name="ioRun_Time_S" Datatype="&quot;UDT_RunTime_Status&quot;" />
+    <Member Name="ioReset_timer-Entern" Datatype="Bool" />
+  </Section>
+  <Section Name="Static">
+    <Member Name="sMotoris_Enabled" Datatype="Bool" />
+    <Member Name="P_TRIG" Datatype="Bool" />
+  </Section>
+</Sections></Interface>
+      <Name>Runtime_DB</Name>
+      <Namespace />
+      <Number>7</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.InstanceDB>
+</Document>

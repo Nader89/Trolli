@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Types.PlcStruct ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="None">
+    <Member Name="No Flow Detected" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">No liquid is flowing through the sensor.</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Flow Rate Too Low" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">The measured flow is below the minimum threshold.</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Flow Rate Too Hight" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">The measured flow exceeds the maximum allowed value.</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Sensor CH1_wBreak" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">The flow sensor CH1 is not connected or has a broken wire</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Sensor CH2_wBreak" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">The flow sensor CH2 is not connected or has a broken wire</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Temprature Above Limit" Datatype="Bool" />
+    <Member Name="Flow Out Of Range" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">The sensor output signal is outside the valid range (e.g. 0–10 V or 4–20 mA)</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Calibration Error" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">The flow sensor is not calibrated correctly</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Air Bubles Detected" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">Air bubbles in the liquid are affecting the flow measurement</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Temprature Out Of Range" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">Liquid temperature is outside the sensor’s operating range</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Temprature Below Limit" Datatype="Bool" />
+    <Member Name="Reverse Flow Detected" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">Flow is moving in the opposite direction</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Communcation Error" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">No communication between sensor and controller (PLC)</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Clogging or Blockage" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">The flow path is blocked or partially obstructed</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Sensor Overheating" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">The sensor temperature is too high</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Dirty Sensor" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">Deposits or dirt on the sensor are affecting measurement accuracy</MultiLanguageText>
+      </Comment>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <Name>UDT_Flowmeter_Stoe</Name>
+      <Namespace />
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Types.PlcStruct>
+</Document>

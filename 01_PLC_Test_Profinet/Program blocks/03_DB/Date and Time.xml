@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <AutoNumber>false</AutoNumber>
+      <HeaderAuthor>L.P.</HeaderAuthor>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="MEM" Datatype="Struct" Remanence="Retain">
+      <Member Name="set by host" Datatype="Bool" />
+      <Member Name="HM imp set by host" Datatype="Bool" />
+      <Member Name="HM imp set by HMI" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="4" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="5" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="6" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="7" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="8" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="9" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="10" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+    </Member>
+    <Member Name="STEP" Datatype="Struct" Remanence="Retain">
+      <Member Name="0" Datatype="Bool" />
+      <Member Name="1" Datatype="Bool" />
+      <Member Name="2" Datatype="Bool" />
+      <Member Name="3" Datatype="Bool" />
+      <Member Name="4" Datatype="Bool" />
+      <Member Name="5" Datatype="Bool" />
+      <Member Name="6" Datatype="Bool" />
+      <Member Name="7" Datatype="Bool" />
+      <Member Name="8" Datatype="Bool" />
+      <Member Name="9" Datatype="Bool" />
+      <Member Name="10" Datatype="Bool" />
+    </Member>
+    <Member Name="T" Datatype="Struct" Remanence="Retain">
+      <Member Name="1" Datatype="IEC_TIMER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="2" Datatype="IEC_TIMER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="3" Datatype="IEC_TIMER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="4" Datatype="IEC_TIMER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="5" Datatype="IEC_TIMER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="6" Datatype="IEC_TIMER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="7" Datatype="IEC_TIMER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="8" Datatype="IEC_TIMER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="9" Datatype="IEC_TIMER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="10" Datatype="IEC_TIMER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+    </Member>
+    <Member Name="C" Datatype="Struct" Remanence="Retain">
+      <Member Name="1" Datatype="IEC_COUNTER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="2" Datatype="IEC_COUNTER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="3" Datatype="IEC_COUNTER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="4" Datatype="IEC_COUNTER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="5" Datatype="IEC_COUNTER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="6" Datatype="IEC_COUNTER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="7" Datatype="IEC_COUNTER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="8" Datatype="IEC_COUNTER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="9" Datatype="IEC_COUNTER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+      <Member Name="10" Datatype="IEC_COUNTER" Version="1.0">
+        <AttributeList>
+          <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+        </AttributeList>
+      </Member>
+    </Member>
+    <Member Name="DATA" Datatype="Struct" Remanence="Retain">
+      <Member Name="in date OP" Datatype="Date" />
+      <Member Name="in time OP" Datatype="Time_Of_Day" />
+      <Member Name="in date and time" Datatype="DTL" Version="1.0" />
+      <Member Name="out date and time" Datatype="DTL" Version="1.0" />
+      <Member Name="year" Datatype="UInt" />
+      <Member Name="month" Datatype="USInt" />
+      <Member Name="day" Datatype="USInt" />
+      <Member Name="hour" Datatype="USInt" />
+      <Member Name="minute" Datatype="USInt" />
+      <Member Name="second" Datatype="USInt" />
+      <Member Name="millisecond" Datatype="UInt" />
+      <Member Name="day of week" Datatype="USInt" />
+      <Member Name="day of year" Datatype="Int" />
+      <Member Name="is Time Master" Datatype="Bool">
+        <StartValue>true</StartValue>
+      </Member>
+    </Member>
+    <Member Name="BUTTON" Datatype="Struct" Remanence="Retain">
+      <Member Name="set date and time" Datatype="Bool" />
+      <Member Name="2" Datatype="Bool" />
+      <Member Name="3" Datatype="Bool" />
+      <Member Name="4" Datatype="Bool" />
+      <Member Name="5" Datatype="Bool" />
+      <Member Name="6" Datatype="Bool" />
+      <Member Name="7" Datatype="Bool" />
+      <Member Name="8" Datatype="Bool" />
+      <Member Name="9" Datatype="Bool" />
+      <Member Name="10" Datatype="Bool" />
+      <Member Name="11" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="12" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="13" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="14" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="15" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="16" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="17" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="18" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="19" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="20" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="21" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="22" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="23" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="24" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="25" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="26" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="27" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="28" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="29" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="30" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="31" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="32" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="33" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="34" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="35" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="36" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="37" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="38" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="39" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+      <Member Name="40" Datatype="Bool">
+        <StartValue>false</StartValue>
+      </Member>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>Date and Time</Name>
+      <Namespace />
+      <Number>3</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>

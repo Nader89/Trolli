@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Types.PlcStruct ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="None">
+    <Member Name="IST_AKTUELL" Datatype="Real" />
+    <Member Name="IST_GLATT" Datatype="Real" />
+    <Member Name="VISU_FABRE" Datatype="Int" />
+    <Member Name="Bit8" Datatype="Bool" />
+    <Member Name="Bit9" Datatype="Bool" />
+    <Member Name="Belegt" Datatype="Bool" />
+    <Member Name="Bit11" Datatype="Bool" />
+    <Member Name="Bit12" Datatype="Bool" />
+    <Member Name="Bit13" Datatype="Bool" />
+    <Member Name="Bit14" Datatype="Bool" />
+    <Member Name="Bit15" Datatype="Bool" />
+    <Member Name="EINSCHALT" Datatype="Bool" />
+    <Member Name="AUSSCHALT" Datatype="Bool" />
+    <Member Name="Bit3" Datatype="Bool" />
+    <Member Name="Bit4" Datatype="Bool" />
+    <Member Name="MESS_DB_STOE" Datatype="Bool" />
+    <Member Name="SIM_AKTIV" Datatype="Bool" />
+    <Member Name="STOE" Datatype="Bool" />
+    <Member Name="STOE_NEU" Datatype="Bool" />
+  </Section>
+</Sections></Interface>
+      <Name>UDT_FuellstandStatus</Name>
+      <Namespace />
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Types.PlcStruct>
+</Document>

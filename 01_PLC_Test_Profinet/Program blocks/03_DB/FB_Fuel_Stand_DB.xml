@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.InstanceDB ID="0">
+    <AttributeList>
+      <InstanceOfName>FB_Fuel_Stand</InstanceOfName>
+      <InstanceOfType>FB</InstanceOfType>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Input">
+    <Member Name="iUnscaledMin" Datatype="Real" />
+    <Member Name="iUnscaledMax" Datatype="Real" />
+    <Member Name="iScaledMin" Datatype="Real" />
+    <Member Name="iOffset" Datatype="Real" />
+    <Member Name="iUnscaledAktVal" Datatype="Int" />
+    <Member Name="iQuittieren" Datatype="Bool" />
+    <Member Name="iImpuls" Datatype="Bool" />
+    <Member Name="iStoerungUnterdr" Datatype="Bool" />
+    <Member Name="iPipe_diameter" Datatype="Bool" />
+    <Member Name="iMaxFlowRate" Datatype="Real" />
+    <Member Name="iTemp_Raw" Datatype="Word" />
+    <Member Name="Temp_Min" Datatype="Real" />
+    <Member Name="Temp_Max" Datatype="Real" />
+    <Member Name="Refrence_Temp" Datatype="Real" />
+    <Member Name="iAssembly_Place" Datatype="String" />
+  </Section>
+  <Section Name="Output">
+    <Member Name="outputfehler" Datatype="&quot;UDT_Flowmeter_Stoe&quot;" />
+  </Section>
+  <Section Name="InOut" />
+  <Section Name="Static">
+    <Member Name="sFlowScaledValue" Datatype="Real" />
+    <Member Name="eingang_80_plc" Datatype="Bool" />
+    <Member Name="Buffer" Datatype="Array[1..10] of Real" />
+    <Member Name="Index" Datatype="DInt" />
+    <Member Name="Sum" Datatype="Real" />
+    <Member Name="sScaledMax" Datatype="Real" />
+    <Member Name="i" Datatype="Int" />
+    <Member Name="sAvg" Datatype="Real" />
+    <Member Name="bitte_schalte_an" Datatype="Bool" />
+    <Member Name="sCyclecount" Datatype="Real" />
+    <Member Name="IEC_Timer_0_Instance" Datatype="TON_TIME" Version="1.0">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <Name>FB_Fuel_Stand_DB</Name>
+      <Namespace />
+      <Number>8</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.InstanceDB>
+</Document>

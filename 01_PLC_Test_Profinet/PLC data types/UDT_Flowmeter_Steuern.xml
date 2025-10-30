@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Types.PlcStruct ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="None">
+    <Member Name="offset" Datatype="Real" />
+    <Member Name="sim" Datatype="Real" />
+    <Member Name="Res1" Datatype="Int" />
+    <Member Name="Res2" Datatype="Int" />
+    <Member Name="Sim_FG" Datatype="Bool">
+      <Comment>
+        <MultiLanguageText Lang="en-US">Freigabe simulation Value</MultiLanguageText>
+      </Comment>
+    </Member>
+    <Member Name="Bit0_1" Datatype="Bool" />
+    <Member Name="Bit0_2" Datatype="Bool" />
+    <Member Name="Bit0_3" Datatype="Bool" />
+    <Member Name="Bit0_4" Datatype="Bool" />
+    <Member Name="Bit0_5" Datatype="Bool" />
+    <Member Name="Bit0_6" Datatype="Bool" />
+    <Member Name="Bit0_7" Datatype="Bool" />
+    <Member Name="Bit1_0" Datatype="Bool" />
+    <Member Name="Bit1_1" Datatype="Bool" />
+    <Member Name="Bit1_2" Datatype="Bool" />
+    <Member Name="Bit1_3" Datatype="Bool" />
+    <Member Name="Bit1_4" Datatype="Bool" />
+    <Member Name="Bit1_5" Datatype="Bool" />
+    <Member Name="Bit1_6" Datatype="Bool" />
+    <Member Name="Bit1_7" Datatype="Bool" />
+  </Section>
+</Sections></Interface>
+      <Name>UDT_Flowmeter_Steuern</Name>
+      <Namespace />
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Types.PlcStruct>
+</Document>

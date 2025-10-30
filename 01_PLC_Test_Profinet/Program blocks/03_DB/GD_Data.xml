@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document>
+  <Engineering version="V20" />
+  <SW.Blocks.GlobalDB ID="0">
+    <AttributeList>
+      <Interface><Sections xmlns="http://www.siemens.com/automation/Openness/SW/Interface/v5">
+  <Section Name="Static">
+    <Member Name="iocontrols" Datatype="&quot;UDT_Flowmeter_Steuern&quot;" Remanence="Retain" />
+    <Member Name="CurrentValue" Datatype="DInt" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="zeit_" Datatype="Time" Remanence="Retain" />
+    <Member Name="cycle_1s" Datatype="Bool" Remanence="Retain" />
+    <Member Name="count" Datatype="Int" Remanence="Retain" />
+    <Member Name="zeit" Datatype="&quot;UDT_RunTime_Status&quot;" Remanence="Retain" />
+    <Member Name="settime" Datatype="&quot;UDT_RunTime_Steuern&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="_Sec" Datatype="Int" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="_Min" Datatype="Int" Remanence="Retain" />
+    <Member Name="_Hours" Datatype="Real" Remanence="Retain" />
+    <Member Name="first_scan" Datatype="Bool" Remanence="Retain" />
+    <Member Name="startup_OK" Datatype="Bool" Remanence="Retain" />
+    <Member Name="Reset_Counter" Datatype="Int" Remanence="Retain" />
+    <Member Name="Date_Time_is_Lost" Datatype="Bool" Remanence="Retain" />
+    <Member Name="Counter_00" Datatype="DInt" Remanence="Retain" />
+    <Member Name="Counter_01" Datatype="DInt" Remanence="Retain" />
+    <Member Name="Testflowsensor_Status" Datatype="&quot;UDT_Flowmeter_Status&quot;" Remanence="Retain" />
+    <Member Name="Testflowsensor_Control" Datatype="&quot;UDT_Flowmeter_Steuern&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+    <Member Name="Testfuelsensor_Stoe" Datatype="&quot;UDT_Flowmeter_Stoe&quot;" Remanence="Retain">
+      <AttributeList>
+        <BooleanAttribute Name="SetPoint" SystemDefined="true">true</BooleanAttribute>
+      </AttributeList>
+    </Member>
+  </Section>
+</Sections></Interface>
+      <MemoryLayout>Standard</MemoryLayout>
+      <Name>GD_Data</Name>
+      <Namespace />
+      <Number>11</Number>
+      <ProgrammingLanguage>DB</ProgrammingLanguage>
+    </AttributeList>
+    <ObjectList>
+      <MultilingualText ID="1" CompositionName="Comment">
+        <ObjectList>
+          <MultilingualTextItem ID="2" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+      <MultilingualText ID="3" CompositionName="Title">
+        <ObjectList>
+          <MultilingualTextItem ID="4" CompositionName="Items">
+            <AttributeList>
+              <Culture>en-US</Culture>
+              <Text />
+            </AttributeList>
+          </MultilingualTextItem>
+        </ObjectList>
+      </MultilingualText>
+    </ObjectList>
+  </SW.Blocks.GlobalDB>
+</Document>
